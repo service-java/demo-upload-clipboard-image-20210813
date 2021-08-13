@@ -382,73 +382,6 @@
 
             <dependency>
                 <groupId>com.ruoyi</groupId>
-                <artifactId>framework-mall</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>framework-sys</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>framework-ext</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-mall</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-mall-cms</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-mall-oms</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-mall-pms</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-mall-tb</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-mall-dora</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-mall-sms</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-mall-ums</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
                 <artifactId>module-cms</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
@@ -459,66 +392,6 @@
                 <version>${ruoyi.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-cms-note</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-cms-vhr</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-cms-nvc</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <!-- 系统模块-->
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-sys</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <!-- 示例模块-->
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-sys-demo</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-sys-qrtz</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-            <!-- 代码生成-->
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-sys-gen</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-ext</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-
-            <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>module-ext-datav</artifactId>
-                <version>${ruoyi.version}</version>
-            </dependency>
-
-
 
         </dependencies>
     </dependencyManagement>
@@ -526,36 +399,11 @@
     <modules>
         <module>common</module>
         <module>framework-cms</module>
-        <module>framework-mall</module>
-        <module>framework-sys</module>
-        <module>framework-ext</module>
         <module>module-cms</module>
         <module>module-cms-blog</module>
-        <module>module-cms-note</module>
-        <module>module-cms-vhr</module>
-        <module>module-cms-nvc</module>
-        <module>module-ext-datav</module>
-        <module>module-sys</module>
-        <module>module-sys-gen</module>
-        <module>module-sys-qrtz</module>
-        <module>module-sys-demo</module>
-        <module>module-ext</module>
-        <module>module-mall</module>
-        <module>module-mall-cms</module>
-        <module>module-mall-oms</module>
-        <module>module-mall-pms</module>
-        <module>module-mall-sms</module>
-        <module>module-mall-ums</module>
-        <module>module-mall-tb</module>
-        <module>module-mall-dora</module>
         <module>service-cms</module>
         <module>service-cms-blog</module>
-        <module>service-cms-note</module>
-        <module>service-cms-vhr</module>
-        <module>service-mall</module>
-        <module>service-sys</module>
-        <module>service-ext</module>
-        <module>service-ext-datav</module>
+
     </modules>
     <packaging>pom</packaging>
 
