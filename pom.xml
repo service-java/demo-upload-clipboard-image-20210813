@@ -401,7 +401,6 @@
         <module>framework-cms</module>
         <module>module-cms</module>
         <module>module-cms-blog</module>
-        <module>service-cms</module>
         <module>service-cms-blog</module>
 
     </modules>
